@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000; /* Adjust the background color as needed */
+  padding: 10px 20px;
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust the logo size as needed */
+}
+
+.navbar-icons a {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 24px; /* Adjust the icon size as needed */
+  transition: color 0.3s;
+}
+
+.navbar-icons a:hover {
+  color: #1da1f2; /* Adjust the hover color as needed */
+}
+
+.navbar-icons i {
+  margin-right: 10px;
+}
