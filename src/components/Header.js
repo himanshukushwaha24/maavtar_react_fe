@@ -1,12 +1,13 @@
 import React from "react";
 import "../assets/styles/Header.css";
+import logo from '../assets/images/logo.jpg'
 
 const Header = () => {
   return (
     <header className="navbar">
       <div className="navbar-logo">
         {/* Replace with your logo */}
-        <img src="path-to-your-logo.png" alt="Logo" />
+        <img src= {logo} alt="Logo" />
       </div>
       <div className="navbar-icons">
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

@@ -1,4 +1,7 @@
 .Home {
-  background-color: black;
-  color: aliceblue;
+background: fixed;
+  color: rgb(141, 81, 13);
+  height: 100%;
+  width: 100%;
+ 
 }

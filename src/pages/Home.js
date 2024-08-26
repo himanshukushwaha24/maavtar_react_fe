@@ -1,10 +1,11 @@
 import React from "react";
 import "../assets/styles/Home.css";
+import LeaderBoard from '../pages/LeaderBoard'
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="Home">
+     <LeaderBoard />
     </div>
   );
 }

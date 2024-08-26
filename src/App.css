@@ -1,3 +1,16 @@
 .App {
   text-align: center;
+  background-color: rgb(6, 3, 12);
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #04020c63; /* Replace with your desired background color */
+  color: #ffffff; /* Replace with your desired text color */
+  
 }

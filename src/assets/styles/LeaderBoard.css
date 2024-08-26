@@ -1,0 +1,114 @@
+.leaderboard {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #000; /* Background color */
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.leaderboard-header,
+.leaderboard-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.leaderboard-header {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 2px solid #555;
+}
+
+.leaderboard-header > div,
+.leaderboard-row > div {
+  flex: 1;
+  text-align: center;
+}
+
+.leaderboard-row {
+  align-items: center;
+}
+
+.rank {
+  flex: 0.5;
+  text-align: left;
+}
+.rank img {
+  height: 50px;
+}
+
+.rank span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.player img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.player-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.player-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-name {
+  font-weight: bold;
+}
+
+.twitter-handle {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.twitter-handle i {
+  margin-right: 5px;
+}
+
+.badge img {
+  height: 50px;
+}
+
+.badge,
+.xp {
+  flex: 1;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+.xp {
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .leaderboard-header,
+  .leaderboard-row {
+    font-size: 0.9em;
+    padding: 5px 0;
+  }
+
+  .player img {
+    width: 30px;
+    height: 30px;
+  }
+}
